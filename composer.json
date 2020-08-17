@@ -1,11 +1,7 @@
 {
     "name": "heimseiten/contao-dark-mode-backend-bundle",
     "description": "Aktiviert einen Dark Mode im Backend.",
-    "keywords": [
-        "dunkel",
-        "theme",
-        "dunkel"
-    ],
+    "keywords": ["dunkel","theme","layout"],
     "type": "contao-bundle",
     "license": "GPL-3.0-or-later",
     "authors": [
