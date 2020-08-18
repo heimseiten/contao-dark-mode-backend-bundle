@@ -8,7 +8,7 @@ document.addEventListener( 'DOMContentLoaded', function () {
     newEntry.setAttribute('class','dark_mode_toggle')
     newEntry.innerHTML = '<span></span>'
     
-    document.querySelector('#tmenu .first').before(newEntry)
+    document.querySelector('#tmenu li:first-child').before(newEntry)
     
     document.querySelector('.dark_mode_toggle').addEventListener('click', event => {      
         if ( document.querySelector('body').classList.contains('dark_mode_off') ) {
