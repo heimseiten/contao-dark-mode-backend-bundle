@@ -43,6 +43,5 @@
     },
     "extra": {
         "contao-manager-plugin": "Heimseiten\\ContaoDarkModeBackendBundle\\ContaoManager\\Plugin"
-    },
-    "version": "1.3"
+    }
 }
