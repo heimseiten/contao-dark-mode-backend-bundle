@@ -63,6 +63,7 @@ body:not(.dark_mode_off) { background-color: var(--darkest_dark); color: var(--c
             .tl_panel { background-color: var(--dark); border-bottom: var(--border);
                 select, input  { background-color: var(--transparency); color: var(--darkest_dark); }
                 #filter, #filter_reset { background-color: transparent; }
+                .tl_submit_panel.tl_subpanel button { border: 0; }
             }                
             .tl_listing_container {
                 &.parent_view {
