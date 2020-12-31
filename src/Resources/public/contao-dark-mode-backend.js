@@ -1,8 +1,10 @@
 document.addEventListener( 'DOMContentLoaded', function () {
 
-    if ( localStorage.getItem('dark_mode_off') == 'true' ) {
+    if ( localStorage.getItem('dark_mode_off') == 'false' ) {
+        document.querySelector('body').classList.remove('dark_mode_off')
+    } else {
         document.querySelector('body').classList.add('dark_mode_off')
-    }    
+    }
     
     var newEntry = document.createElement('li')
     newEntry.setAttribute('class','dark_mode_toggle')
