@@ -13,6 +13,9 @@ body.dark_mode_off .dark_mode_toggle span {
     position: relative;
     cursor: pointer;
     user-select: none;
+    text-indent: 28px;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 :root { 
