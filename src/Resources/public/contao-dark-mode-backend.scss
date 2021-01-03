@@ -1,7 +1,7 @@
-body.dark_mode_off .dark_mode_toggle span { 
+body.dark_mode_off .dark_mode_toggle a { 
     background-image: url(moon-solid.svg); background-size: 12px; 
 }
-.dark_mode_toggle span { 
+.dark_mode_toggle a { 
     background-image: url(sun-solid.svg);
     background-position: center;
     background-repeat: no-repeat;
