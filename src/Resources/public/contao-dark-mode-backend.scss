@@ -53,7 +53,7 @@ body:not(.dark_mode_off) { background-color: var(--darkest_dark); color: var(--c
         select, button, textarea, button .tl_submit, input, .tl_select, .chzn-choices, #ctrl_templates_chzn, a.tl_submit, .ace-clouds .ace_gutter, #ctrl_head_div, .ace_scroller { background-color: var(--172b3b); color: var(--color_brightest); border: var(--border_brighter);
             a, li { color: var(--darkest_dark); }
         }
-        button.drag-handle { background: transparent; }
+        button.drag-handle { background: transparent; border: 0; }
         
         th { background: var(--dark); border: var(--border); border-right: 0; border-left: 0; }
         .tl_file, tr td { background-color: var(--darker_dark); border-bottom: var(--border); }
