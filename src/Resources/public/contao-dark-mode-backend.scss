@@ -78,7 +78,10 @@ body:not(.dark_mode_off) { background-color: var(--darkest_dark); color: var(--c
                     }
                 }
             }
-            .tl_content { background-color: var(--darker_dark); border-bottom: var(--border); 
+            .tl_content { 
+                background-color: var(--darker_dark); 
+                background-image: var(--darker_dark); 
+                border-bottom: var(--border); 
                 &:hover .limit_toggler { background-color: var(--dark) !important; }
                 .limit_toggler         { background-color: var(--dark); 
                     button { background-color: var(--darker_dark); 
@@ -101,6 +104,9 @@ body:not(.dark_mode_off) { background-color: var(--darkest_dark); color: var(--c
                 .pagination { background: var(--dark); border: var(--border); border-right: 0; border-left: 0; }
             }
             #tl_layout #pal_modules_legend .sortable button { background: transparent; }
+            #picker-menu li { background-color: var(--brighter_dark);
+                &.current { background-color: var(--dark); }
+            }
         }
     }
     //********************************************** MODAL **********************************************\\
