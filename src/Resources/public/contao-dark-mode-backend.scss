@@ -107,6 +107,7 @@ body:not(.dark_mode_off) { background-color: var(--darkest_dark); color: var(--c
             #picker-menu li { background-color: var(--brighter_dark);
                 &.current { background-color: var(--dark); }
             }
+            .tl_message .tl_error { background-color: var(--darkest_dark); }
         }
     }
     //********************************************** MODAL **********************************************\\
