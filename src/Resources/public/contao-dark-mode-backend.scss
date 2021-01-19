@@ -72,14 +72,11 @@ body:not(.dark_mode_off) { background-color: var(--darkest_dark); color: var(--c
             .tl_listing_container {
                 &.parent_view {
                     & > ul { background-color: var(--dark); }
+                    .tl_header { background-color: var(--darker_dark); border: var(--border); border-right: 0; border-left: 0;
+                        .tl_label { font-weight: 400 !important; }
+                        td { background-color: transparent !important; border: 0; }
+                    }
                 }
-                .tl_header { background-color: var(--darker_dark); border: var(--border); border-right: 0; border-left: 0;
-                    .tl_label { font-weight: 400 !important; }
-                    td { background-color: transparent !important; border: 0; }
-                }
-                //**** MetaModels - begin ***//
-                #tl_breadcrumb { background: var(--dark); border: var(--border); }
-                //**** MetaModels - end ***//
             }
             .tl_content { 
                 background-color: var(--darker_dark); 
@@ -110,13 +107,16 @@ body:not(.dark_mode_off) { background-color: var(--darkest_dark); color: var(--c
             #picker-menu li { background-color: var(--brighter_dark);
                 &.current { background-color: var(--dark); }
             }
-            .tl_message .tl_error { background-color: var(--darkest_dark); }
-            //**** Contao Monitoring - begin ***//
-            .tl_extension .legend-element-container { background: var(--dark); border: var(--border); 
-                &.hidden { background: var(--brighter_dark); }
-            }
-            //**** Contao Monitoring - end ***//
         }
+        //********************************************** TINY MCE - begin **********************************************\\
+        .tox-tinymce { 
+            .tox-menubar, .tox-toolbar-overlord, .tox-statusbar { background-color: var(--transparency) !important; }
+            .tox-mbtn, .tox-tbtn, .tox-toolbar, .tox-toolbar__primary { background: transparent !important; }
+            .tox-toolbar__primary { border-bottom: 1px solid #eee; }
+            iframe { background-color: var(--transparency); }
+            button { color: var(--dark); border: 0; }
+        }
+        //********************************************** TINY MCE - end **********************************************\\
     }
     //********************************************** MODAL **********************************************\\
     .simple-modal { background: var(--brighter_dark); 
@@ -127,11 +127,5 @@ body:not(.dark_mode_off) { background-color: var(--darkest_dark); color: var(--c
         .simple-modal-body {
             .contents { background: var(--darkest_dark); }
         }
-    }
-    //********************************************** TINY MCE **********************************************\\
-    .tox-tinymce { 
-        .tox-menubar, .tox-toolbar-overlord, .tox-statusbar { background-color: var(--transparency) !important; }
-        .tox-mbtn, .tox-tbtn, .tox-toolbar { background-color: transparent !important; }
-        iframe { background-color: var(--transparency); }
     }
 }
