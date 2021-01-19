@@ -77,7 +77,9 @@ body:not(.dark_mode_off) { background-color: var(--darkest_dark); color: var(--c
                     .tl_label { font-weight: 400 !important; }
                     td { background-color: transparent !important; border: 0; }
                 }
+                //**** MetaModels - begin ***//
                 #tl_breadcrumb { background: var(--dark); border: var(--border); }
+                //**** MetaModels - end ***//
             }
             .tl_content { 
                 background-color: var(--darker_dark); 
@@ -109,6 +111,11 @@ body:not(.dark_mode_off) { background-color: var(--darkest_dark); color: var(--c
                 &.current { background-color: var(--dark); }
             }
             .tl_message .tl_error { background-color: var(--darkest_dark); }
+            //**** Contao Monitoring - begin ***//
+            .tl_extension .legend-element-container { background: var(--dark); border: var(--border); 
+                &.hidden { background: var(--brighter_dark); }
+            }
+            //**** Contao Monitoring - end ***//
         }
     }
     //********************************************** MODAL **********************************************\\
