@@ -8,7 +8,7 @@ document.addEventListener( 'DOMContentLoaded', function () {
     
     var newEntry = document.createElement('li')
     newEntry.setAttribute('class','dark_mode_toggle')
-    newEntry.innerHTML = '<a title="Dark Mode on/off">Dark Mode</a>'
+    newEntry.innerHTML = '<a title="Dark Mode">Dark Mode</a>'
     
     if (document.querySelector('#tmenu li:first-child')) {
         document.querySelector('#tmenu li:first-child').before(newEntry)
