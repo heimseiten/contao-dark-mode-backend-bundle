@@ -72,11 +72,12 @@ body:not(.dark_mode_off) { background-color: var(--darkest_dark); color: var(--c
             .tl_listing_container {
                 &.parent_view {
                     & > ul { background-color: var(--dark); }
-                    .tl_header { background-color: var(--darker_dark); border: var(--border); border-right: 0; border-left: 0;
-                        .tl_label { font-weight: 400 !important; }
-                        td { background-color: transparent !important; border: 0; }
-                    }
                 }
+                .tl_header { background-color: var(--darker_dark); border: var(--border); border-right: 0; border-left: 0;
+                    .tl_label { font-weight: 400 !important; }
+                    td { background-color: transparent !important; border: 0; }
+                }
+                #tl_breadcrumb { background: var(--dark); border: var(--border); }
             }
             .tl_content { 
                 background-color: var(--darker_dark); 
