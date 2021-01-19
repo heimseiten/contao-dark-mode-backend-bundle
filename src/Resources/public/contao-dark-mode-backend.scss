@@ -112,7 +112,7 @@ body:not(.dark_mode_off) { background-color: var(--darkest_dark); color: var(--c
             }
             .tl_message .tl_error { background-color: var(--darkest_dark); }
             //**** Contao Monitoring - begin ***//
-            .tl_extension .legend-element-container { background: var(--dark); border: var(--border); 
+            #tl_extension .legend-element-container { background: var(--dark); border: var(--border); 
                 &.hidden { background: var(--brighter_dark); }
             }
             //**** Contao Monitoring - end ***//
