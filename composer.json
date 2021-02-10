@@ -17,7 +17,7 @@
         "source": "https://github.com/heimseiten/contao-dark-mode-backend-bundle"
     },
     "require": {
-        "contao/core-bundle": "^4.4"
+        "contao/core-bundle": "^4.9"
     },
     "require-dev": {
         "contao/test-case": "^4.0",
