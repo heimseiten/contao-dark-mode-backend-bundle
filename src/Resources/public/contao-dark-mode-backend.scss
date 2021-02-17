@@ -58,7 +58,7 @@ body:not(.dark_mode_off) { background-color: var(--darkest_dark); color: var(--c
         th { background: var(--dark); border: var(--border); border-right: 0; border-left: 0; }
         .tl_file, tr td { background-color: var(--darker_dark); background-image: none; border-bottom: var(--border); }
         .tl_folder_top, tr.odd td   { background-color: var(--dark); border: var(--border); border-right: 0; border-left: 0; }
-        .tl_folder, .tl_content_header,  tr.even td, tr:nth-child(even) td { background-color: var(--brighter_dark); border-bottom: var(--border); }
+        .tl_folder, .tl_content_header,  tr.even td, tr:nth-child(even) td, .tl_metawizard li { background: var(--brighter_dark); border-bottom: var(--border); }
         .parent .tl_folder { background-color: var(--dark); }
         .hover-row:hover td, .hover-div:hover { background-color: var(--darkest_dark) !important; }
 
