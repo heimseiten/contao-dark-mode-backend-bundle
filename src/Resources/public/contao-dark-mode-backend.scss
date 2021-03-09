@@ -55,9 +55,10 @@ body:not(.dark_mode_off) { background-color: var(--darkest_dark); color: var(--c
             a, li { color: var(--darkest_dark); }
         }
         button.drag-handle { background: transparent; border: 0; }
-        .tl_modulewizard, .tl_sectionwizard { 
+        .tl_modulewizard, .tl_sectionwizard, .sortable { 
             button { border: 0; }
-        }  
+        }
+        .tl_img_submit {  border: 0; }
         
         th { background: var(--dark); border: var(--border); border-right: 0; border-left: 0; }
         .tl_file, tr td { background-color: var(--darker_dark); background-image: none; border-bottom: var(--border); }
@@ -115,6 +116,7 @@ body:not(.dark_mode_off) { background-color: var(--darkest_dark); color: var(--c
                 &.current { background-color: var(--dark); }
             }
             .tl_error { background-color: #431919; }
+            .tl_info { background-color: var(--darkest_dark); }
             //********************************************** Contao Monitoring - begin **********************************************//
             .legend-element-container { background: var(--dark); border: var(--border); 
                 &.hidden { background: var(--brighter_dark); }
