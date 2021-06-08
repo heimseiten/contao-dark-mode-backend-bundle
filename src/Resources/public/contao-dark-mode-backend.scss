@@ -117,11 +117,14 @@ body:not(.dark_mode_off) { background-color: var(--darkest_dark); color: var(--c
             }
             .tl_error { background-color: #431919; }
             .tl_info { background-color: var(--darkest_dark); }
-            //********************************************** Contao Monitoring - begin **********************************************//
+            //********************************************** ContaoMonitoring/bundle-all - begin **********************************************//
             .legend-element-container { background: var(--dark); border: var(--border); 
                 &.hidden { background: var(--brighter_dark); }
             }
-            //********************************************** Contao Monitoring - end **********************************************//
+            //********************************************** ContaoMonitoring/bundle-all - end **********************************************//
+            //********************************************** terminal42/contao-url-rewrite - begin **********************************************//
+            #pal_examples_legend.tl_box pre { background: var(--darkest_dark) !important;}
+            //********************************************** terminal42/contao-url-rewrite - end **********************************************//
         }
         //********************************************** TINY MCE - begin **********************************************\\
         .tox-tinymce { 
