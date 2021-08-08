@@ -51,9 +51,11 @@ body:not(.dark_mode_off) { background-color: var(--darkest_dark); color: var(--c
         fieldset.tl_tbox>legend, fieldset.tl_box>legend { color: var(--color); }
         
         select, button, textarea, button .tl_submit, input, .tl_select, .chzn-choices, #ctrl_templates_chzn, a.tl_submit, .ace-clouds .ace_gutter, #ctrl_head_div, .ace_scroller { 
-            background-color: var(--172b3b); color: var(--color_brightest); border: 0;
+            background-color: var(--172b3b); color: var(--color_brightest); border: var(--border_brighter);
             a, li { color: var(--darkest_dark); }
         }
+        .ace-clouds .ace_gutter, #ctrl_head_div, .ace_scroller { border: 0; }
+
         button.drag-handle { background: transparent; border: 0; }
         .tl_modulewizard, .tl_sectionwizard, .sortable { 
             button { border: 0; }
