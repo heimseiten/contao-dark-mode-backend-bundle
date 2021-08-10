@@ -140,6 +140,16 @@ body:not(.dark_mode_off) { background-color: var(--darkest_dark); color: var(--c
             button { color: var(--dark); border: 0; }
         }
         //********************************************** TINY MCE - end **********************************************\\
+        //********************************************** styleManager - begin **********************************************\\
+        .stylemanager.widget {
+            .tab-container {
+                [id^=nav-]:checked + label { background: none; border: var(--border); }
+                .tab-content { background: none; border: var(--border); }
+            }
+        }
+        .tl_row_inner .art-info .bh-class,
+        .tl_row_inner .art-info .bh-id { background: #eee; }
+        //********************************************** styleManager - end **********************************************\\
     }
     //********************************************** MODAL **********************************************\\
     .simple-modal { background: var(--brighter_dark); 
