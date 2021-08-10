@@ -143,12 +143,11 @@ body:not(.dark_mode_off) { background-color: var(--darkest_dark); color: var(--c
         //********************************************** styleManager - begin **********************************************\\
         .stylemanager.widget {
             .tab-container {
+                & > label { background: var(--darkest_dark); border: var(--border); }
                 [id^=nav-]:checked + label { background: none; border: var(--border); }
                 .tab-content { background: none; border: var(--border); }
             }
         }
-        .tl_row_inner .art-info .bh-class,
-        .tl_row_inner .art-info .bh-id { background: #eee; }
         //********************************************** styleManager - end **********************************************\\
     }
     //********************************************** MODAL **********************************************\\
