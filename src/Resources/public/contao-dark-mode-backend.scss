@@ -143,8 +143,8 @@ body:not(.dark_mode_off) { background-color: var(--darkest_dark); color: var(--c
         //********************************************** styleManager - begin **********************************************\\
         .stylemanager.widget {
             .tab-container {
-                & > label { background: var(--darkest_dark); border: var(--border); }
-                [id^=nav-]:checked + label { background: none; border: var(--border); }
+                & > label { background: none; border: var(--border); }
+                [id^=nav-]:checked + label { background: none; border-top: 1px solid var(--color_brightest); }
                 .tab-content { background: none; border: var(--border); }
                 .long.desc { color: var(--color_brightest); }
             }
