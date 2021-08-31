@@ -39,7 +39,11 @@ body.dark_mode_off .dark_mode_toggle a {
     --transparency: rgba(255, 255, 255, 0.7) !important;
 }
 
-body:not(.dark_mode_off) { background-color: var(--darkest_dark); color: var(--color_brightest); 
+body:not(.dark_mode_off) { 
+    background-color: var(--darkest_dark); color: var(--color_brightest);
+    .tip-wrap .tip-text {
+        h1, h2, h3, h4, h5, h6, strong, b, th { color: var(--color_brightest); }
+    }
     #container, header .inner { border: var(--border_darker); border-top: 0; border-bottom: 0; }
     #left .version {background-color: transparent; }
     #main { background-color: var(--darker_dark); 
