@@ -134,6 +134,9 @@ body:not(.dark_mode_off) {
             //********************************************** terminal42/contao-url-rewrite - begin **********************************************//
             #pal_examples_legend.tl_box pre { background: var(--darkest_dark) !important;}
             //********************************************** terminal42/contao-url-rewrite - end **********************************************//
+            //********************************************** numero2/contao-marketing-suite - begin **********************************************//
+            .cms_modules > .module > a { background: var(--brighter_dark); }
+            //********************************************** numero2/contao-marketing-suite - end **********************************************//
         }
         //********************************************** TINY MCE - begin **********************************************\\
         .tox-tinymce { 
