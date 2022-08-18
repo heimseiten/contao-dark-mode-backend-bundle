@@ -11,7 +11,7 @@
  *
  */
 
-if (TL_MODE == 'BE') {
+if (\defined('TL_MODE') && 'BE' === TL_MODE) {
     $GLOBALS['TL_CSS'][] = 'bundles/heimseitencontaodarkmodebackend/contao-dark-mode-backend.scss|static';
     $GLOBALS['TL_JAVASCRIPT'][] = 'bundles/heimseitencontaodarkmodebackend/contao-dark-mode-backend.js';
 }
