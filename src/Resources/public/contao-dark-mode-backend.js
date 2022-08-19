@@ -14,12 +14,6 @@ document.addEventListener( 'DOMContentLoaded', function () {
         document.querySelector('#tmenu li:first-child').before(newEntry)
     }
     
-    new Tips.Contao($$('#tmenu a[title]').filter(function(i) {
-        return i.title != '';
-    }), {
-        offset: {x:9, y:42}
-    })
-
     if (document.querySelector('.dark_mode_toggle')) {
         document.querySelector('.dark_mode_toggle').addEventListener('click', event => {      
             if ( document.querySelector('body').classList.contains('dark_mode_off') ) {
