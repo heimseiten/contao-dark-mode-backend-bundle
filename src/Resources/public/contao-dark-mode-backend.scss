@@ -70,8 +70,8 @@ body:not(.dark_mode_off) {
         .tl_img_submit {  border: 0; }
         
         th { background: var(--dark); border: var(--border); border-right: 0; border-left: 0; }
-        .tl_left a[title="Bereich schließen"] img,
-        .tl_left a[title="Collapse node"] img { filter: invert(1); }
+        img[src="/system/themes/flexible/icons/folPlus.svg"],
+        img[src="/system/themes/flexible/icons/folMinus.svg"] { filter: invert(1);
         .tl_file, tr td { background-color: var(--darker_dark); background-image: none; border-bottom: var(--border); }
         .tl_folder_top, tr.odd td   { background-color: var(--dark); border: var(--border); border-right: 0; border-left: 0; }
         .tl_folder, .tl_content_header,  tr.even td, tr:nth-child(even) td, .tl_metawizard li { background: var(--brighter_dark); border-bottom: var(--border); }
