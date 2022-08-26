@@ -50,7 +50,8 @@ body:not(.dark_mode_off) {
         .maintenance_active, .maintenance_inactive,.tl_folder_tlist { border-top:var(--border);}
         h1, h2, h3, h4, h5, h6, strong, b, th, p, li { color: var(--color_brightest); }
         h1, h2, h3, h4, h5, h6, strong, b, th, .tl_content_header { font-weight: 400; }
-        a { color: var(--color_link) !important; }    
+        a { color: var(--color_link) !important; }
+        a.header_toggle { filter: invert(1); color: #222 !important; }
         
         fieldset.tl_tbox>legend, fieldset.tl_box>legend { color: var(--color); }
         
