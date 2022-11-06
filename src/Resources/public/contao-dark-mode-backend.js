@@ -1,4 +1,6 @@
 document.addEventListener( 'DOMContentLoaded', function () {
+    
+    document.querySelector('body').classList.add('dark_mode_bundle')
 
     if ( localStorage.getItem('dark_mode_off') == 'false' ) {
         document.querySelector('body').classList.remove('dark_mode_off')
